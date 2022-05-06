@@ -16,7 +16,7 @@ h2{
     z-index:1;
 }
 .Suski-Family-Reunion{
-    padding: 20px;
+    
 }
 /*
 .Suski-Family-Reunion::before {
@@ -179,10 +179,10 @@ display: block;
 
 .countdown-container, .picture-container {
     width: 50%;
-    min-width: 420px;
+    min-width: 425px;
     float: left;
     padding: 20px;
-    height: 95vh;
+    height: 100vh;
     align-self: center;
     display: grid;
     
