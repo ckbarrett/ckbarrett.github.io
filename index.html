@@ -7,9 +7,11 @@
     <meta name="description" content="A simple website to show a countdown to the next Suski family reunion.">
     <meta name="author" content="Christian Barrett">
     <link rel="stylesheet" href="./style.css" />
+    
   </head>
   <body>
-    <section class="Suski-Family-Reunion">
+    <div class="Suski-Family-Reunion">
+        <!--
         <div class="dropdown">
             <button class="dropbtn">
                 <img class="menu-icon" src="photos/menu-icon.png">
@@ -19,107 +21,112 @@
               <a href="#">Link 2</a>
               <a href="#">Link 3</a>
             </div>
-          </div>
+          </div> -->
         <!-- Countdown Timer Container-->
-        <div>
-            <h2>Suski Family Reunion!</h2>
-            <div class="countdown">
-                <div class="container-day">
-                <h3 class="days">Time</h3>
-                <h3>Days</h3>
+        <div class="countdown-container">
+            <div class="vertical-center">
+                <h2>Suski Family Reunion!</h2>
+                <div class="countdown">
+                    <div class="container-day">
+                    <h3 class="days">Time</h3>
+                    <h3>Days</h3>
+                    </div>
+                    <div class="container-hour">
+                    <h3 class="hours">Time</h3>
+                    <h3>Hours</h3>
+                    </div>
+                    <div class="container-minutes">
+                    <h3 class="minutes">Time</h3>
+                    <h3>Minutes</h3>
+                    </div>
+                    <div class="container-seconds">
+                    <h3 class="seconds">Time</h3>
+                    <h3>Seconds</h3>
+                    </div>
                 </div>
-                <div class="container-hour">
-                <h3 class="hours">Time</h3>
-                <h3>Hours</h3>
-                </div>
-                <div class="container-minutes">
-                <h3 class="minutes">Time</h3>
-                <h3>Minutes</h3>
-                </div>
-                <div class="container-seconds">
-                <h3 class="seconds">Time</h3>
-                <h3>Seconds</h3>
-                </div>
-
             </div>
         </div>
 
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 9</div>
-                <img class="slideshow-image" src="photos/barretts.jpg" style="width:100%">
-                <div class="text">Ken, Avery, Christian, and Tammy</div>
-            </div>
+        <div class="picture-container">
+            <div class="vertical-center">
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 9</div>
+                        <img class="slideshow-image" src="photos/barretts.jpg" style="width:100%">
+                        <div class="text">Ken, Avery, Christian, and Tammy</div>
+                    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 9</div>
-                <img class="slideshow-image" src="photos/ron-lori.jpg" style="width:100%">
-                <div class="text">Lori, Ron, and Elton</div>
-            </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 9</div>
+                        <img class="slideshow-image" src="photos/ron-lori.jpg" style="width:100%">
+                        <div class="text">Lori, Ron, and Elton</div>
+                    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 9</div>
-                <img class="slideshow-image" src="photos/amanda-shawn-kid.jpg" style="width:100%">
-                <div class="text">Amanda, Hudson, and Shawn</div>
-            </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 9</div>
+                        <img class="slideshow-image" src="photos/amanda-shawn-kid.jpg" style="width:100%">
+                        <div class="text">Amanda, Hudson, and Shawn</div>
+                    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 9</div>
-                <img class="slideshow-image" src="photos/shane-lauren-kid.jpg" style="width:100%">
-                <div class="text">Lauren, Shane, and Elton</div>
-            </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 9</div>
+                        <img class="slideshow-image" src="photos/shane-lauren-kid.jpg" style="width:100%">
+                        <div class="text">Lauren, Shane, and Elton</div>
+                    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 9</div>
-                <img class="slideshow-image" src="photos/shelly-david-kids.jpg" style="width:100%">
-                <div class="text">Shelly, David, Greyson, Luca, and Oaklynn</div>
-            </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 9</div>
+                        <img class="slideshow-image" src="photos/shelly-david-kids.jpg" style="width:100%">
+                        <div class="text">Shelly, David, Greyson, Luca, and Oaklynn</div>
+                    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">6 / 9</div>
-                <img class="slideshow-image" src="photos/ron-lori2.jpg" style="width:100%">
-                <div class="text">Ron and Lori</div>
-            </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 9</div>
+                        <img class="slideshow-image" src="photos/ron-lori2.jpg" style="width:100%">
+                        <div class="text">Ron and Lori</div>
+                    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">7 / 9</div>
-                <img class="slideshow-image" src="photos/dave-diane.jpg" style="width:100%">
-                <div class="text">Dave and Diane</div>
-            </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 9</div>
+                        <img class="slideshow-image" src="photos/dave-diane.jpg" style="width:100%">
+                        <div class="text">Dave and Diane</div>
+                    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">8 / 9</div>
-                <img class="slideshow-image" src="photos/kaitlyn-david.jpg" style="width:100%">
-                <div class="text">Kaitlyn and David</div>
-            </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">8 / 9</div>
+                        <img class="slideshow-image" src="photos/kaitlyn-david.jpg" style="width:100%">
+                        <div class="text">Kaitlyn and David</div>
+                    </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">9 / 9</div>
-                <img class="slideshow-image" src="photos/ron-lori-family.jpg" style="width:100%">
-                <div class="text">David, Kaitlyn, Lori, Ron, Shane, and Lauren</div>
-            </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">9 / 9</div>
+                        <img class="slideshow-image" src="photos/ron-lori-family.jpg" style="width:100%">
+                        <div class="text">David, Kaitlyn, Lori, Ron, Shane, and Lauren</div>
+                    </div>
 
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                </div>
+            </div>
         </div>
-        <br>
-
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
-            <span class="dot" onclick="currentSlide(9)"></span>
-        </div>
-    </section>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
