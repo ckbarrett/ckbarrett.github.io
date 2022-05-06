@@ -179,7 +179,7 @@ display: block;
 
 .countdown-container, .picture-container {
     width: 50%;
-    min-width: 400px;
+    min-width: 420px;
     float: left;
     padding: 20px;
     height: 95vh;
