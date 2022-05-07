@@ -6,26 +6,24 @@
     <title>Reunion Countdown</title>
     <meta name="description" content="A simple website to show a countdown to the next Suski family reunion.">
     <meta name="author" content="Christian Barrett">
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     
   </head>
   <body>
     <div class="Suski-Family-Reunion">
-        <!--
-        <div class="dropdown">
-            <button class="dropbtn">
-                <img class="menu-icon" src="photos/menu-icon.png">
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div> -->
+        <!-- Top nav bar-->
+        <div class="topnav">
+            <a class="active" href="./index.html">Home</a>
+            <a href="./suggestions.html">Suggestions</a> 
+            <a href="https://www.sandbridgevacationrentals.com/vacation-rentals/a-crown-jewel/SF2256">The House</a>
+            <a href="#">Planning Doc</a>
+          </div>
         <!-- Countdown Timer Container-->
         <div class="countdown-container">
             <div class="vertical-center">
                 <h2>Suski Family Reunion!</h2>
+                <h3 class="details">Sandbridge Beach, VA </h3>
+                <h3 class="details">6/17/23-6/24/23</h3>
                 <div class="countdown">
                     <div class="container-day">
                     <h3 class="days">Time</h3>
@@ -52,58 +50,84 @@
                 <!-- Slideshow container -->
                 <div class="slideshow-container">
                     <!-- Full-width images with number and caption text -->
-                    <div class="mySlides fade">
-                        <div class="numbertext">1 / 9</div>
-                        <img class="slideshow-image" src="photos/barretts.jpg" style="width:100%">
-                        <div class="text">Ken, Avery, Christian, and Tammy</div>
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 16</div>
+                        <img class="slideshow-image" src="photos/original.jpg" style="width:100%">
                     </div>
 
-                    <div class="mySlides fade">
-                        <div class="numbertext">2 / 9</div>
-                        <img class="slideshow-image" src="photos/ron-lori.jpg" style="width:100%">
-                        <div class="text">Lori, Ron, and Elton</div>
+                    <div class="mySlides">
+                        <div class="numbertext-black">2 / 16</div>
+                        <img class="slideshow-image" src="photos/dave-family.jpg" style="width:100%">
                     </div>
 
-                    <div class="mySlides fade">
-                        <div class="numbertext">3 / 9</div>
-                        <img class="slideshow-image" src="photos/amanda-shawn-kid.jpg" style="width:100%">
-                        <div class="text">Amanda, Hudson, and Shawn</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext">4 / 9</div>
-                        <img class="slideshow-image" src="photos/shane-lauren-kid.jpg" style="width:100%">
-                        <div class="text">Lauren, Shane, and Elton</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext">5 / 9</div>
-                        <img class="slideshow-image" src="photos/shelly-david-kids.jpg" style="width:100%">
-                        <div class="text">Shelly, David, Greyson, Luca, and Oaklynn</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext">6 / 9</div>
-                        <img class="slideshow-image" src="photos/ron-lori2.jpg" style="width:100%">
-                        <div class="text">Ron and Lori</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext">7 / 9</div>
-                        <img class="slideshow-image" src="photos/dave-diane.jpg" style="width:100%">
-                        <div class="text">Dave and Diane</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext">8 / 9</div>
-                        <img class="slideshow-image" src="photos/kaitlyn-david.jpg" style="width:100%">
-                        <div class="text">Kaitlyn and David</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext">9 / 9</div>
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 16</div>
                         <img class="slideshow-image" src="photos/ron-lori-family.jpg" style="width:100%">
-                        <div class="text">David, Kaitlyn, Lori, Ron, Shane, and Lauren</div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 16</div>
+                        <img class="slideshow-image" src="photos/barretts.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 16</div>
+                        <img class="slideshow-image" src="photos/party.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 16</div>
+                        <img class="slideshow-image" src="photos/shelly-david-kids.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 16</div>
+                        <img class="slideshow-image" src="photos/kaitlyn-david.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext-black">8 / 16</div>
+                        <img class="slideshow-image" src="photos/amanda-shawn-kid.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext-black">9 / 16</div>
+                        <img class="slideshow-image" src="photos/avery-christian.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">10 / 16</div>
+                        <img class="slideshow-image" src="photos/shane-lauren-kid.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">11 / 16</div>
+                        <img class="slideshow-image" src="photos/dave-diane.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">12 / 16</div>
+                        <img class="slideshow-image" src="photos/ron-lori2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">13 / 16</div>
+                        <img class="slideshow-image" src="photos/tammy-ken.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext-black">14 / 16</div>
+                        <img class="slideshow-image" src="photos/kids.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">15 / 16</div>
+                        <img class="slideshow-image" src="photos/kid1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">16 / 16</div>
+                        <img class="slideshow-image" src="photos/kid2.jpg" style="width:100%">
                     </div>
 
                     <!-- Next and previous buttons -->
@@ -123,6 +147,13 @@
                     <span class="dot" onclick="currentSlide(7)"></span>
                     <span class="dot" onclick="currentSlide(8)"></span>
                     <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+                    <span class="dot" onclick="currentSlide(11)"></span>
+                    <span class="dot" onclick="currentSlide(12)"></span>
+                    <span class="dot" onclick="currentSlide(13)"></span>
+                    <span class="dot" onclick="currentSlide(14)"></span>
+                    <span class="dot" onclick="currentSlide(15)"></span>
+                    <span class="dot" onclick="currentSlide(16)"></span>
                 </div>
             </div>
         </div>
