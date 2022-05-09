@@ -48,6 +48,21 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function checkDivWidth(){
+  let countDownContainer = document.getElementById("countdown-container");
+  let pictureContainer = document.getElementById("picture-container");
+  console.log(window.innerWidth);
+  let actualInnerWidth = document.body.clientWidth;
+  if(window.innerWidth < 850){
+    countDownContainer.style.width = "" + actualInnerWidth+ "px";
+    pictureContainer.style.width = "" + actualInnerWidth + "px";
+  } else {
+    countDownContainer.style.width = "" + (actualInnerWidth / 2.0) - 2 + "px";
+    pictureContainer.style.width = "" + (actualInnerWidth / 2.0) - 2 + "px";
+  }
+}
+
 let slideIndex = 1;
 showSlides(slideIndex);
+window.onresize = checkDivWidth;
 setInterval(countdown, 1000);
